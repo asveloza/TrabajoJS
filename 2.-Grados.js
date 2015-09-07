@@ -1,0 +1,11 @@
+var inGrados = prompt("Ingrese grados centigrados");
+var farenheit = inGrados*(9/5)+32;
+confirm(inGrados+" grados Centigrados equivalen a "+farenheit+" grados farenheit");
+var kelvin = parseInt(inGrados) + 273.15;
+confirm(inGrados+" grados Centigrados equivalen a "+kelvin+" grados kelvin");
+var infarenh = prompt("Ingrese grados farenheit");
+var centigrados = (infarenh-32)*(5/9);
+confirm(infarenh+" grados farenheit equivalen a "+centigrados+" grados centigrados");
+var inkelv = prompt("Ingrese grados Kelvin");
+var centigrados = inkelv-273.15;
+confirm(inkelv+" grados farenheit equivalen a "+centigrados+" grados centigrados");
